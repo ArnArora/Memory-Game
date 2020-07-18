@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Memory Game</title>
+      <link rel="stylesheet" href="numbers.css">
+  </head>
+  <body>
+    <h1>The Memory Game</h1>
+    <h2>You have 5 seconds to memorize the cards.</h2>
+    <h3>Click the start button to start.</h3>
+    <!--start button-->
+    <button onclick = "startGame()" id = "starting">Start</button>
+    <!--a container with all 8 cards inside-->
+    <div class = "container">
+      <!--8 cards-->
+      <div class = "red box" id = "1"></div>
+      <div class = "red box" id = "2"></div>
+      <div class = "green box" id = "3"></div>
+      <div class = "green box" id = "4"></div>
+      <div class = "blue box" id = "5"></div>
+      <div class = "blue box" id = "6"></div>
+      <div class = "orange box" id = "7"></div>
+      <div class = "orange box" id = "8"></div>
+    </div>
+    <!--number of clicks-->
+    <h3 id = "score">Clicks = </h3>
+    <script src="numbers.js"></script>
+  </body>
+</html>
